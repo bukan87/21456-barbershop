@@ -1,40 +1,35 @@
+
 body{
-  font-family: 'PT Sans Narrow';
+  font-family: 'PT Sans Narrow', sans-serif;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 header{
-  font-weight: bold;
   font-size: 16px;
 }
 
 h1{
-  font-weight: bold;
   font-size: 30px;
 }
 
 .breadcrumbs{
-  font-weight: bold;
   font-size: 14px;
 }
 
 .filters legend{
-  font-weight: bold;
   font-size: 24px;
 }
 
 .filters label{
-  font-weight: bold;
   font-size: 14px;
 }
 
 .filters input{
-  font-weight: bold;
   font-size: 13px;
 }
 
 .item{
-  font-weight: bold;
   font-size: 14px;
 }
 
@@ -44,14 +39,12 @@ h1{
 }
 
 footer{
-  font-weight: bold;
   font-size: 14px;
 }
 
 .features p,
 .news-preview,
 .description{
-  font-weight: bold;
   font-size: 14px;
   line-height: 24px;
 }
