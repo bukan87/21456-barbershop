@@ -125,6 +125,7 @@ fieldset{
   margin-top: 0px;
   margin-bottom: 0px;
   line-height: 43px;
+  vertical-align: middle;
 }
 
 .price{
@@ -234,7 +235,6 @@ fieldset{
 }
 
 .equipment_header{
-  display: inline-block;
   margin-top: 74px;
   margin-bottom: 0px;
   font-size: 24px;
