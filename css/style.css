@@ -111,8 +111,8 @@ fieldset{
 
 .price_buy{
   font-size: 0px;
-  height: 43px;
   width: 187px;
+  height: 43px;
   margin-left: 16px;
   margin-bottom: 16px;
   text-align: center;
@@ -193,6 +193,8 @@ fieldset{
 .small_photo a{
   float: left;
   margin-right: 20px;
+  width: 140px;
+  height: 149px;
 }
 
 .small_photo a:last-child{
