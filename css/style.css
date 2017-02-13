@@ -53,6 +53,7 @@ body{
 
 .btn:hover,
 .btn:active {
+  color: #ffffff;
   background-color: #663d15;
 }
 
@@ -94,6 +95,7 @@ body{
 }
 
 .main_navigation a {
+  position: relative;
   display: block;
   padding: 26px 20px;
   color: #ffffff;
@@ -104,33 +106,18 @@ body{
   padding: 21px 20px;
 }
 
-.main_navigation a:hover {
+.main_navigation a:hover:not(.current_page) {
   background: #242424;
-}
-
-.main_navigation .current_page{
-  position: relative;
-  box-shadow: inset 0 -5px 0 0 white;
 }
 
 .main_navigation .current_page::before{
   content: "";
   position: absolute;
-  left: 0;
+  left: 20px;
+  right: 20px;
   bottom: 0;
-  width: 20px;
   height: 5px;
-  background: black;
-}
-
-.main_navigation .current_page::after{
-  content: "";
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 20px;
-  height: 5px;
-  background: black;
+  background: white;
 }
 
 .login_block{
